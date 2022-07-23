@@ -196,7 +196,7 @@ section .title::after{
     color: crimson;
     font-weight: 500;
 }
-.home .home-content a{
+/*.home .home-content a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -207,11 +207,18 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+} */
+.home .home-content .github a{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: 20px;
+    font-size:30px;color:white;
 }
 .home .home-content a:hover{
     color: crimson;
     background: none;
 }
+
 
 /* about section styling */
 .about .title::after{
@@ -258,16 +265,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .projects{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams .title::before{
+.projects .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.projects .title::after{
     background: #111;
     content: "what i provide";
 }
