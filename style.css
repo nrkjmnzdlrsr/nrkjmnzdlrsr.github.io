@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #111;
 }
 .navbar .max-width{
     display: flex;
@@ -101,12 +101,15 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    background-image: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
+/*.navbar.sticky .logo a span{
     color: #fff;
-}
+} */
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -120,11 +123,15 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    background-image: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
 }
-.navbar.sticky .menu li a:hover{
+/*navbar sticky white when scroll*/
+/*.navbar.sticky .menu li a:hover{
     color: #fff;
-}
+}*/ 
 
 /* menu btn styling */
 .menu-btn{
