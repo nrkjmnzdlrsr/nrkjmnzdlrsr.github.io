@@ -248,9 +248,9 @@ section .title::after{
 }
 .about .about-content .right .text span{
     background-image: linear-gradient(90deg, red, blue);
-    background-clip: text;
     color: transparent;
     font-weight: 500;
+    background-clip: text;
     -webkit-background-clip: text;
 }
 .about .about-content .right p{
