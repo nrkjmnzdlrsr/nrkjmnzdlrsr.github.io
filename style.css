@@ -227,8 +227,10 @@ section .title::after{
     color:white;
 }
 .home .home-content a:hover{
-    color: crimson;
-    background: none;
+    background-image: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 
